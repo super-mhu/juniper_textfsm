@@ -1,0 +1,990 @@
+labroot@joffrey-re0> show interfaces et-* extensive 
+Physical interface: et-0/0/0, Enabled, Physical link is Down
+  Interface index: 149, SNMP ifIndex: 516, Generation: 162
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:50:e7:fa, Hardware address: 10:0e:7e:50:e7:fa
+  Last flapped   : 2020-12-07 10:02:13 PST (00:16:20 ago)
+  Statistics last cleared: Never
+  Traffic statistics:
+   Input  bytes  :                    0                    0 bps
+   Output bytes  :                    0                    0 bps
+   Input  packets:                    0                    0 pps
+   Output packets:                    0                    0 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 0, Drops: 0, Framing errors: 0, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 0, Errors: 0, Drops: 0, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                                0                    0                    0
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                                0                    0                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN
+    7                   Critical_VPN
+  Active alarms  : LINK
+  Active defects : LINK, LOCAL-FAULT
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets                             0                0
+    Total packets                            0                0
+    Unicast packets                          0                0
+    Broadcast packets                        0                0
+    Multicast packets                        0                0
+    CRC/Align errors                         0                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            0
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort            95    95000000000    95              0      low    none
+    3 Network_Control         5     5000000000     5              0      low    none
+  Interface transmit statistics: Disabled
+
+Physical interface: et-0/0/1, Enabled, Physical link is Down
+  Interface index: 150, SNMP ifIndex: 517, Generation: 163
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:50:e7:fb, Hardware address: 10:0e:7e:50:e7:fb
+  Last flapped   : 2020-12-07 10:02:13 PST (00:16:20 ago)
+  Statistics last cleared: Never
+  Traffic statistics:
+   Input  bytes  :                    0                    0 bps
+   Output bytes  :                    0                    0 bps
+   Input  packets:                    0                    0 pps
+   Output packets:                    0                    0 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 0, Drops: 0, Framing errors: 0, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 0, Errors: 0, Drops: 0, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                                0                    0                    0
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                                0                    0                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN
+    7                   Critical_VPN
+  Active alarms  : LINK
+  Active defects : LINK, LOCAL-FAULT
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets                             0                0
+    Total packets                            0                0
+    Unicast packets                          0                0
+    Broadcast packets                        0                0
+    Multicast packets                        0                0
+    CRC/Align errors                         0                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            0
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort            95    95000000000    95              0      low    none
+    3 Network_Control         5     5000000000     5              0      low    none
+  Interface transmit statistics: Disabled
+                                        
+Physical interface: et-0/0/2, Enabled, Physical link is Up
+  Interface index: 151, SNMP ifIndex: 518, Generation: 164
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:51:25:fd, Hardware address: 10:0e:7e:50:e7:fc
+  Last flapped   : 2020-12-07 10:02:27 PST (00:16:06 ago)
+  Statistics last cleared: Never
+  Traffic statistics:
+   Input  bytes  :        3242154500764          26950884368 bps
+   Output bytes  :        3461644797508          28788515248 bps
+   Input  packets:           4167300943              4329227 pps
+   Output packets:           4449426010              4623749 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 0, Drops: 0, Framing errors: 0, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 1, Errors: 0, Drops: 421, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                       4448604314           4448603893                  421
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                             1004                 1004                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN
+    7                   Critical_VPN
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets                 3316476391627    3540997072249
+    Total packets                   4166434690       4448500092
+    Unicast packets                 4166433589       4448499317
+    Broadcast packets                        0                0
+    Multicast packets                      968             1004
+    CRC/Align errors                         0                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            0
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort             5     5000000000     r              0     high    none
+    1 Resv_Low                3     3000000000     r              0     high    none
+    2 Resv_High              22    22000000000     r              0     high    none
+    3 Network_Control         r              r     r              0 strict-high    none
+    4 Basic_VPN              10    10000000000     r              0     high    none
+    5 Enhanced_VPN           15    15000000000     r              0     high    none
+    6 Preferred_VPN          20    20000000000     r              0     high    none
+    7 Critical_VPN           25    25000000000     r              0     high    none
+  Interface transmit statistics: Disabled
+
+  Logical interface et-0/0/2.0 (Index 83) (SNMP ifIndex 510) (Generation 168)
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: ENET2
+    Traffic statistics:
+     Input  bytes  :        3242154501632
+     Output bytes  :        3461644797508
+     Input  packets:           4167300950
+     Output packets:           4449426010
+    Local statistics:
+     Input  bytes  :                  868
+     Output bytes  :                10944
+     Input  packets:                    7
+     Output packets:                   36
+    Transit statistics:
+     Input  bytes  :        3242154500764          26950884368 bps
+     Output bytes  :        3461644786564          28788515248 bps
+     Input  packets:           4167300943              4329227 pps
+     Output packets:           4449425974              4623749 pps
+    Protocol aenet, AE bundle: ae0.0, Generation: 203, Route table: 0
+
+Physical interface: et-0/0/3, Enabled, Physical link is Up
+  Interface index: 152, SNMP ifIndex: 519, Generation: 165
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running      
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:51:25:f9, Hardware address: 10:0e:7e:50:e7:fd
+  Last flapped   : 2020-12-07 10:02:31 PST (00:16:02 ago)
+  Statistics last cleared: Never
+  Traffic statistics:
+   Input  bytes  :        3454794664366          28839935744 bps
+   Output bytes  :        3537093432493          29525365040 bps
+   Input  packets:           4440658199              4632649 pps
+   Output packets:           4546415944              4743110 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 0, Drops: 0, Framing errors: 0, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 1, Errors: 0, Drops: 0, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                       4545569186           4545569186                    0
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                             1000                 1000                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN
+    7                   Critical_VPN
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets                 3533990163352    3618175133525
+    Total packets                   4439734123       4545469405
+    Unicast packets                 4439733053       4545468588
+    Broadcast packets                        0                0
+    Multicast packets                      962             1000
+    CRC/Align errors                         0                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            0
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort            95    95000000000    95              0      low    none
+    3 Network_Control         5     5000000000     5              0      low    none
+  Interface transmit statistics: Disabled
+
+  Logical interface et-0/0/3.0 (Index 84) (SNMP ifIndex 511) (Generation 169)
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: ENET2
+    Traffic statistics:
+     Input  bytes  :        3454794664986
+     Output bytes  :        3537093432493
+     Input  packets:           4440658204
+     Output packets:           4546415944
+    Local statistics:
+     Input  bytes  :                  620
+     Output bytes  :                10944
+     Input  packets:                    5
+     Output packets:                   36
+    Transit statistics:
+     Input  bytes  :        3454794664366          28839935744 bps
+     Output bytes  :        3537093421549          29525365040 bps
+     Input  packets:           4440658199              4632649 pps
+     Output packets:           4546415908              4743110 pps
+    Protocol aenet, AE bundle: ae1.0, Generation: 204, Route table: 0
+
+Physical interface: et-2/0/0, Enabled, Physical link is Down
+  Interface index: 137, SNMP ifIndex: 545, Generation: 140
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:50:ef:b8, Hardware address: 10:0e:7e:50:ef:b8
+  Last flapped   : 2020-12-04 10:11:36 PST (3d 00:06 ago)
+  Statistics last cleared: 2020-12-04 18:08:21 PST (2d 16:10 ago)
+  Traffic statistics:
+   Input  bytes  :                    0                    0 bps
+   Output bytes  :                    0                    0 bps
+   Input  packets:                    0                    0 pps
+   Output packets:                    0                    0 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 0, Drops: 0, Framing errors: 0, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 0, Errors: 0, Drops: 0, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                                0                    0                    0
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                                0                    0                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN
+    7                   Critical_VPN
+  Active alarms  : LINK
+  Active defects : LINK, LOCAL-FAULT
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets                             0                0
+    Total packets                            0                0
+    Unicast packets                          0                0
+    Broadcast packets                        0                0
+    Multicast packets                        0                0
+    CRC/Align errors                         0                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            0
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort            95    95000000000    95              0      low    none
+    3 Network_Control         5     5000000000     5              0      low    none
+  Link Degrade :                      
+    Link Monitoring                   :  Disable
+  Interface transmit statistics: Disabled
+
+Physical interface: et-2/0/1, Enabled, Physical link is Down
+  Interface index: 138, SNMP ifIndex: 551, Generation: 141
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:50:ef:b9, Hardware address: 10:0e:7e:50:ef:b9
+  Last flapped   : 2020-12-04 10:11:36 PST (3d 00:06 ago)
+  Statistics last cleared: 2020-12-04 18:08:21 PST (2d 16:10 ago)
+  Traffic statistics:
+   Input  bytes  :                    0                    0 bps
+   Output bytes  :                    0                    0 bps
+   Input  packets:                    0                    0 pps
+   Output packets:                    0                    0 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 0, Drops: 0, Framing errors: 0, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 0, Errors: 0, Drops: 0, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                                0                    0                    0
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                                0                    0                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control 
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN
+    7                   Critical_VPN
+  Active alarms  : LINK
+  Active defects : LINK, LOCAL-FAULT
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets                             0                0
+    Total packets                            0                0
+    Unicast packets                          0                0
+    Broadcast packets                        0                0
+    Multicast packets                        0                0
+    CRC/Align errors                         0                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            0
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort            95    95000000000    95              0      low    none
+    3 Network_Control         5     5000000000     5              0      low    none
+  Link Degrade :                      
+    Link Monitoring                   :  Disable
+  Interface transmit statistics: Disabled
+
+Physical interface: et-6/0/0, Enabled, Physical link is Up
+  Interface index: 139, SNMP ifIndex: 566, Generation: 142
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:51:25:f9, Hardware address: 10:0e:7e:50:ff:34
+  Last flapped   : 2020-12-04 13:31:03 PST (2d 20:47 ago)
+  Statistics last cleared: 2020-12-04 18:08:21 PST (2d 16:10 ago)
+  Traffic statistics:
+   Input  bytes  :      805035800699139          28377808552 bps
+   Output bytes  :      784522655852782          27696187648 bps
+   Input  packets:        1034751219565              4558402 pps
+   Output packets:        1008613263696              4448414 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 253, Drops: 0, Framing errors: 253, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 0, Errors: 0, Drops: 0, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                    1009706490648        1009706490648                    0
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                           324923               324923                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN
+    7                   Critical_VPN
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                       894
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets               823652790333485  802669422562577
+    Total packets                1034740506831    1008603061785
+    Unicast packets              1034740127270    1008602788330
+    Broadcast packets                      100              111
+    Multicast packets                   379219           273374
+    CRC/Align errors                       253                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            2
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort            95    95000000000    95              0      low    none
+    3 Network_Control         5     5000000000     5              0      low    none
+  Link Degrade :                      
+    Link Monitoring                   :  Disable
+  Interface transmit statistics: Disabled
+
+  Logical interface et-6/0/0.0 (Index 87) (SNMP ifIndex 571) (Generation 156)
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: ENET2
+    Traffic statistics:
+     Input  bytes  :      805035800699139
+     Output bytes  :      784522655852782
+     Input  packets:        1034751219565
+     Output packets:        1008613263696
+    Local statistics:
+     Input  bytes  :                    0
+     Output bytes  :              8737549
+     Input  packets:                    0
+     Output packets:                93919
+    Transit statistics:
+     Input  bytes  :      805035800699139          28377808552 bps
+     Output bytes  :      784522647115233          27696187488 bps
+     Input  packets:        1034751219565              4558402 pps
+     Output packets:        1008613169777              4448414 pps
+    Protocol aenet, AE bundle: ae1.0, Generation: 191, Route table: 0
+
+Physical interface: et-6/0/1, Enabled, Physical link is Down
+  Interface index: 140, SNMP ifIndex: 567, Generation: 143
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:50:ff:35, Hardware address: 10:0e:7e:50:ff:35
+  Last flapped   : 2020-12-04 10:11:45 PST (3d 00:06 ago)
+  Statistics last cleared: 2020-12-04 18:08:21 PST (2d 16:10 ago)
+  Traffic statistics:
+   Input  bytes  :                    0                    0 bps
+   Output bytes  :                    0                    0 bps
+   Input  packets:                    0                    0 pps
+   Output packets:                    0                    0 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 0, Drops: 0, Framing errors: 0, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 0, Errors: 0, Drops: 0, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                                0                    0                    0
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                                0                    0                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN
+    7                   Critical_VPN
+  Active alarms  : LINK
+  Active defects : LINK, LOCAL-FAULT
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets                             0                0
+    Total packets                            0                0
+    Unicast packets                          0                0
+    Broadcast packets                        0                0
+    Multicast packets                        0                0
+    CRC/Align errors                         0                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            0
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort            95    95000000000    95              0      low    none
+    3 Network_Control         5     5000000000     5              0      low    none
+  Link Degrade :                      
+    Link Monitoring                   :  Disable
+  Interface transmit statistics: Disabled
+
+Physical interface: et-12/0/0, Enabled, Physical link is Down
+  Interface index: 135, SNMP ifIndex: 596, Generation: 138
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Enabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:51:16:6e, Hardware address: 10:0e:7e:51:16:6e
+  Last flapped   : 2020-12-04 10:11:25 PST (3d 00:07 ago)
+  Statistics last cleared: 2020-12-04 18:08:21 PST (2d 16:10 ago)
+  Traffic statistics:
+   Input  bytes  :                    0                    0 bps
+   Output bytes  :                    0                    0 bps
+   Input  packets:                    0                    0 pps
+   Output packets:                    0                    0 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 0, Drops: 0, Framing errors: 0, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 0, Errors: 0, Drops: 0, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                                0                    0                    0
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                                0                    0                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN   
+    7                   Critical_VPN
+  Active alarms  : LINK
+  Active defects : LINK, LOCAL-FAULT
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets                             0                0
+    Total packets                            0                0
+    Unicast packets                          0                0
+    Broadcast packets                        0                0
+    Multicast packets                        0                0
+    CRC/Align errors                         0                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            0
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort            95    95000000000    95              0      low    none
+    3 Network_Control         5     5000000000     5              0      low    none
+  Link Degrade :                      
+    Link Monitoring                   :  Disable
+  Interface transmit statistics: Disabled
+
+Physical interface: et-12/0/1, Enabled, Physical link is Up
+  Interface index: 136, SNMP ifIndex: 598, Generation: 139
+  Link-level type: Ethernet, MTU: 1514, Speed: 100Gbps, BPDU Error: None, Loop Detect PDU Error: None, Loopback: Disabled, Source filtering: Disabled, Flow control: Disabled
+  Device flags   : Present Running
+  Interface flags: SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 10:0e:7e:51:25:fd, Hardware address: 10:0e:7e:51:16:6f
+  Last flapped   : 2020-12-04 13:49:47 PST (2d 20:28 ago)
+  Statistics last cleared: 2020-12-04 18:08:21 PST (2d 16:10 ago)
+  Traffic statistics:
+   Input  bytes  :      858463132515460          30274868336 bps
+   Output bytes  :      805528919530425          28435453648 bps
+   Input  packets:        1103424178596              4862952 pps
+   Output packets:        1035618698738              4568417 pps
+   IPv6 transit statistics:
+    Input  bytes  :                   0
+    Output bytes  :                   0
+    Input  packets:                   0
+    Output packets:                   0
+  Input errors:
+    Errors: 0, Drops: 0, Framing errors: 0, Runts: 0, Policed discards: 0, L3 incompletes: 0, L2 channel errors: 0, L2 mismatch timeouts: 0, FIFO errors: 0, Resource errors: 0
+  Output errors:
+    Carrier transitions: 0, Errors: 0, Drops: 0, Collisions: 0, Aged packets: 0, FIFO errors: 0, HS link CRC errors: 0, MTU errors: 0, Resource errors: 0
+  Egress queues: 8 supported, 8 in use
+  Queue counters:       Queued packets  Transmitted packets      Dropped packets
+    0                    1036745971528        1036745971528                    0
+    1                                0                    0                    0
+    2                                0                    0                    0
+    3                           407404               407404                    0
+    4                                0                    0                    0
+    5                                0                    0                    0
+    6                                0                    0                    0
+    7                                0                    0                    0
+  Queue number:         Mapped forwarding classes
+    0                   Best_Effort
+    1                   Resv_Low
+    2                   Resv_High
+    3                   Network_Control
+    4                   Basic_VPN
+    5                   Enhanced_VPN
+    6                   Preferred_VPN
+    7                   Critical_VPN
+  Active alarms  : None
+  Active defects : None
+  PCS statistics                      Seconds
+    Bit errors                             0
+    Errored blocks                         0
+  Ethernet FEC statistics              Errors
+    FEC Corrected Errors                    0
+    FEC Uncorrected Errors                  0
+    FEC Corrected Errors Rate               0
+    FEC Uncorrected Errors Rate             0
+  MAC statistics:                      Receive         Transmit
+    Total octets               878325866354546  824171111137069
+    Total packets                1103425562908    1035620222174
+    Unicast packets              1103425268886    1035619863355
+    Broadcast packets                      106              105
+    Multicast packets                   293917           358712
+    CRC/Align errors                         0                0
+    FIFO errors                              0                0
+    MAC control frames                       0                0
+    MAC pause frames                         0                0
+    Oversized frames                         0
+    Jabber frames                            0
+    Fragment frames                          0
+    VLAN tagged frames                       0
+    Code violations                          0
+  Filter statistics:                    
+    Input packet count                       0
+    Input packet rejects                     0
+    Input DA rejects                         0
+    Input SA rejects                         0
+    Output packet count                                       0
+    Output packet pad count                                   0
+    Output packet error count                                 0
+    CAM destination filters: 0, CAM source filters: 0
+  Packet Forwarding Engine configuration:
+    Destination slot: 0 (0x00)
+  CoS information:
+    Direction : Output
+    CoS transmit queue               Bandwidth               Buffer Priority   Limit
+                              %            bps     %           usec
+    0 Best_Effort             5     5000000000     r              0     high    none
+    1 Resv_Low                3     3000000000     r              0     high    none
+    2 Resv_High              22    22000000000     r              0     high    none
+    3 Network_Control         r              r     r              0 strict-high    none
+    4 Basic_VPN              10    10000000000     r              0     high    none
+    5 Enhanced_VPN           15    15000000000     r              0     high    none
+    6 Preferred_VPN          20    20000000000     r              0     high    none
+    7 Critical_VPN           25    25000000000     r              0     high    none
+  Link Degrade :                      
+    Link Monitoring                   :  Disable
+  Interface transmit statistics: Disabled
+
+  Logical interface et-12/0/1.0 (Index 88) (SNMP ifIndex 508) (Generation 157)
+    Flags: Up SNMP-Traps 0x4004000 Encapsulation: ENET2
+    Traffic statistics:
+     Input  bytes  :      858463132515460
+     Output bytes  :      805528919530425
+     Input  packets:        1103424178596
+     Output packets:        1035618698738
+    Local statistics:
+     Input  bytes  :                    0
+     Output bytes  :             16334449
+     Input  packets:                    0
+     Output packets:               176398
+    Transit statistics:
+     Input  bytes  :      858463132515460          30274868336 bps
+     Output bytes  :      805528903195976          28435453360 bps
+     Input  packets:        1103424178596              4862952 pps
+     Output packets:        1035618522340              4568417 pps
+    Protocol aenet, AE bundle: ae0.0, Generation: 192, Route table: 0

@@ -1,0 +1,12 @@
+Value Filldown RTRNAME (\S+)
+Value Required MAC ([A-Fa-f0-9:]{17})
+Value Required IP_ADDRESS (([0-9]{1,3}\.){3}[0-9]{1,3})
+Value Required INTERFACE (\S+)
+Value FLAGS (\S+)
+
+Start
+  ^\S+@${RTRNAME}>.*
+  ^MAC\s+Address\s+Address\s+Interface\s+Flags -> NoRecord
+  ^${MAC}\s+${IP_ADDRESS}\s+${INTERFACE}\s+${FLAGS} -> Record
+  ^Total\s+entries -> NoRecord
+  ^. -> Error

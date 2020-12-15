@@ -1,0 +1,15 @@
+#Juniper interfaces extensive textFsm 
+Value Required INTERFACE (\S+) 
+Value ADMIN_STATE (\S+)
+Value LINK_STATUS (\w+)
+Value HARDWARE_TYPE (\S+) 
+Value MTU (\d+|Unlimited)
+Value INPUT_RATE (\d+)
+Value OUTPUT_RATE (\d+) 
+
+Start
+	^Physical\sinterface:\s+${INTERFACE},\s+${ADMIN_STATE},\s+Physical\s+link\s+is\s+${LINK_STATUS}
+	^.*ype:\s+${HARDWARE_TYPE},.*MTU:\s+${MTU} 
+	^.*Input\s+packets:\s+\d+\s+${INPUT_RATE}\s+pps 
+	^.*Output\s+packets:\s+\d+\s+${OUTPUT_RATE}\s+pps -> Record 
+

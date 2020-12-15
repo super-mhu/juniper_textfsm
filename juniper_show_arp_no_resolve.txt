@@ -1,0 +1,17 @@
+labroot@joffrey-re1> show arp no-resolve 
+MAC Address       Address         Interface         Flags
+02:00:00:00:00:04 10.0.0.4        ixgbe1.0                 none
+00:00:5e:00:01:0b 10.85.165.1     em0.0                    none
+d0:07:ca:59:44:a0 10.85.165.2     em0.0                    none
+d0:07:ca:58:9a:a0 10.85.165.3     em0.0                    none
+00:17:cb:de:e7:c0 12.0.0.1        ae0.0                    none
+30:7c:5e:9f:d0:80 23.0.0.2        ae1.0                    none
+02:00:00:00:00:04 128.0.0.4       ixgbe1.0                 none
+02:00:00:00:00:04 128.0.0.6       ixgbe1.0                 none
+02:00:00:00:00:10 128.0.0.16      ixgbe1.0                 none
+02:00:00:00:00:12 128.0.0.18      ixgbe0.0                 none
+02:00:00:00:00:16 128.0.0.22      ixgbe0.0                 none
+02:00:00:00:00:1c 128.0.0.28      ixgbe0.0                 none
+02:00:00:00:00:37 128.0.0.55      ixgbe1.0                 permanent
+02:00:00:00:00:38 128.0.0.56      ixgbe1.0                 permanent
+Total entries: 13

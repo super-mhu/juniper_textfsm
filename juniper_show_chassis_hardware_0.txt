@@ -1,0 +1,409 @@
+labroot@newark-re0> show chassis hardware models 
+Hardware inventory:
+Item             Version  Part number  Serial number     FRU model number
+Midplane         REV 05   710-017414   TR3140            CHAS-BP-MX480-S
+FPM Board        REV 02   710-017254   KE7753            CRAFT-MX480-S
+PEM 0            Rev 10   740-029970   QCS1404U1DH       PWR-MX480-2520-AC-S
+PEM 1            Rev 10   740-029970   QCS1407U06D       PWR-MX480-2520-AC-S
+Routing Engine 0 REV 07   740-051822   9016295206        RE-S-1800X4-32G-S
+CB 0             REV 03   750-055976   CAEP4885          SCBE2-MX-S
+FPC 5            REV 46   750-056519   CAMF2814          MPC7E-MRATE
+Fan Tray                                                 FFANTRAY-MX480-HC-S
+
+labroot@rigel-re0> show chassis hardware models 
+Hardware inventory:
+Item             Version  Part number  Serial number     FRU model number
+Midplane         REV 09   750-047862   ACRE6789          CHAS-BP3-MX480-S
+FPM Board        REV 02   710-017254   CAEJ9249          CRAFT-MX480-S
+PEM 0            Rev 10   740-029970   QCS1514U020       PWR-MX480-2520-AC-S
+PEM 1            Rev 10   740-029970   QCS1514U00X       PWR-MX480-2520-AC-S
+Routing Engine 0 REV 07   740-031116   9009119829        RE-S-1800X4-16G-S
+CB 0             REV 07   750-062572   CAHR7521          SCBE2-MX-S
+FPC 5            REV 46   750-056519   CAMD6780          MPC7E-MRATE
+Fan Tray                                                 FFANTRAY-MX480-HC-S
+
+labroot@jtac-MX80-r063> show chassis hardware models 
+Hardware inventory:
+Item             Version  Part number  Serial number     FRU model number
+Midplane         REV 09   711-031594   CABH1641          CHAS-MX80-S
+PEM 0            Rev 05   740-028288   XA00435           PWR-MX80-AC-S
+Routing Engine            BUILTIN      BUILTIN          
+TFEB 0                    BUILTIN      BUILTIN          
+FPC 0                     BUILTIN      BUILTIN          
+FPC 1                     BUILTIN      BUILTIN          
+  MIC 0          REV 26   750-028392   CAAG5050          MIC-3D-20GE-SFP
+Fan Tray                                                 FANTRAY-MX80-S
+
+
+labroot@h16-37> show chassis hardware models 
+Hardware inventory:
+Item             Version  Part number  Serial number     FRU model number
+CB 0             REV 34   750-069579   CALW2049          JNP204-CHAS
+FPC 0                     BUILTIN      BUILTIN           PROTO-ASSEMBLY
+PEM 0            REV 04   740-070749   1F189201875       JPSU-650W-AC-AO
+PEM 1            REV 04   740-070749   1F189202253       JPSU-650W-AC-AO
+Fan Tray 0                                               JNP-FAN-1RU
+Fan Tray 1                                               JNP-FAN-1RU
+Fan Tray 2                                               JNP-FAN-1RU
+
+
+labroot@jtac-ptx3000-r2002-re0> show chassis hardware models 
+Hardware inventory:
+Item             Version  Part number  Serial number     FRU model number
+Midplane         REV 20   750-044645   ACMG8237          CHAS-MP-PTX3000-S
+FPM              REV 07   760-044663   ACDV2339          FPD-SFF-PTX-S
+PSM 0            REV 06   740-044981   1EDK5040519       PSM-SFF-PTX-AC-S
+PSM 1            REV 06   740-044981   1EDK4280427       PSM-SFF-PTX-AC-S
+PSM 2            REV 04   740-044981   1EDK3500031       PSM-SFF-PTX-AC-S
+PSM 3            REV 04   740-044981   1EDK3500058       PSM-SFF-PTX-AC-S
+Routing Engine 0 REV 12   740-026942   P737A-006333      RE-DUO-C2600-16G-S
+Routing Engine 1 REV 12   740-026942   P737A-006300      RE-DUO-C2600-16G-S
+CB 0             REV 17   750-044656   ACDT8685          CB-SFF-PTX-S
+CB 1             REV 19   750-044656   ACNP1053          CB-SFF-PTX-S
+FPC 14           REV 40   750-057064   ACPJ9161          FPC3-SFF-PTX-U1
+SIB 0            REV 11   750-057067   ACPZ9759          SIB3-SFF-PTX-S
+SIB 1            REV 11   750-057067   ACPZ9771          SIB3-SFF-PTX-S
+SIB 2            REV 11   750-057067   ACPZ9762          SIB3-SFF-PTX-S
+SIB 3            REV 10   750-057067   ACPJ8709          SIB3-SFF-PTX-S
+SIB 4            REV 10   750-057067   ACPJ8833          SIB3-SFF-PTX-S
+SIB 5            REV 10   750-057067   ACPJ8839          SIB3-SFF-PTX-S
+SIB 6            REV 10   750-057067   ACPJ8683          SIB3-SFF-PTX-S
+SIB 7            REV 10   750-057067   ACPJ8843          SIB3-SFF-PTX-S
+SIB 8            REV 10   750-057067   ACPJ9002          SIB3-SFF-PTX-S
+Fan Tray 0       REV 13   760-044659   ACDV0231          FAN-SFF-PTX-S
+
+
+labroot@nano-re1> show chassis hardware models    
+Hardware inventory:
+Item             Version  Part number  Serial number     FRU model number
+Midplane         REV 26   750-044636   ABAB9363          PROTO-ASSEMBLY
+Midplane 1       REV 01   711-044557   ABAB8639         
+PMP              REV 04   711-032426   ACAJ1684         
+FPM Board        REV 08   760-044634   ABBV9726          MX2010-CRAFT-S
+PSM 0            REV 01   740-050037   1EDB32202F7       MX2000-PSM-DC-S
+PSM 1            REV 01   740-050037   1EDB32202F8       MX2000-PSM-DC-S
+PSM 2            REV 01   740-050037   1EDB32202FM       MX2000-PSM-DC-S
+PSM 3            REV 01   740-050037   1EDB32202FJ       MX2000-PSM-DC-S
+PSM 4            REV 01   740-050037   1EDB32202EZ       MX2000-PSM-DC-S
+PSM 5            REV 01   740-050037   1EDB32202FG       MX2000-PSM-DC-S
+PSM 6            REV 01   740-050037   1EDB32202G2       MX2000-PSM-DC-S
+PSM 7            REV 01   740-050037   1EDB32202F1       MX2000-PSM-DC-S
+PSM 8            REV 01   740-050037   1EDB32202D3       MX2000-PSM-DC-S
+PDM 0            REV 03   740-050036   1EFD6471100       MX2000-PDM-DC-S
+PDM 1            REV 01   740-050036   1EGD3250049       MX2000-PDM-DC-S-B
+Routing Engine 1 REV 11   750-055814   CAJC0333         
+CB 0             REV 17   750-055087   CALG9053          REMX2K-X8-64G-S
+CB 1             REV 15   750-055087   CAJC0025          REMX2K-X8-64G-S
+SFB 0            REV 11   711-052892   ABDL0661          MX2000-SFB2-S
+SFB 1            REV 11   711-052892   ABDL0697          MX2000-SFB2-S
+SFB 2            REV 11   711-052892   ABDL0733          MX2000-SFB2-S
+SFB 3            REV 11   711-052892   CAHC5153          MX2000-SFB2-S
+SFB 4            REV 11   711-052892   CAFY4760          PROTO-ASSEMBLY
+SFB 5            REV 11   711-052892   CALT6960          MX2000-SFB2-S
+SFB 6            REV 11   711-052892   CALT6890          MX2000-SFB2-S
+SFB 7            REV 11   711-052892   CALT6938          MX2000-SFB2-S
+FPC 9            REV 12   750-054903   CAFE2787          MPC2E-3D-NG-Q
+  MIC 1          REV 11   750-036996   CACW5058          MIC-3D-16CHE1-T1-CE
+ADC 3            REV 07   750-043596   ABBV7241          MX2000-LC-ADAPTER
+ADC 9            REV 13   750-043596   ABBX5534          MX2000-LC-ADAPTER
+Fan Tray 0       REV 01   760-060323   ACAY4790          MX2K-FANTRAY-OP
+Fan Tray 1       REV 06   760-046960   ACAY0254          wˆPHHHEpex„‚e‰Eƒ
+Fan Tray 2       REV 06   760-046960   ACAY0252          wˆPHHHEpex„‚e‰Eƒ
+Fan Tray 3       REV 01   760-060323   ACAY4804          MX2K-FANTRAY-OP
+
+
+
+labroot@ELINE-BGP-LU-TL1_DCA6> show chassis hardware models    
+Hardware inventory:
+Item             Version  Part number  Serial number     FRU model number
+Midplane         REV 13   750-035893   ACAW8491          CHAS-MP-PTX5000-S
+FPM              REV 12   760-030647   BBBB3768          CRAFT-PTX5000-S
+PDU 0            Rev 07   740-032019   1E002240045       PDU-PTX-DC-120-S
+  PSM 0          Rev 06   740-032022   1EBB2310225       PSM-PTX-DC-120-S
+  PSM 1          Rev 06   740-032022   1EBB2310133       PSM-PTX-DC-120-S
+  PSM 3          Rev 06   740-032022   1E002250106       PSM-PTX-DC-120-S
+PDU 1            Rev 07   740-032019   1E002240043       PDU-PTX-DC-120-S
+  PSM 0          Rev 06   740-032022   1EBB3390013       PSM-PTX-DC-120-S
+  PSM 1          Rev 06   740-032022   1EBB2390039       PSM-PTX-DC-120-S
+  PSM 2          Rev 06   740-032022   1E002240031       PSM-PTX-DC-120-S
+CCG 0            REV 09   750-030653   BBBB3196          CCG-PTX-S
+CCG 1            REV 09   750-030653   BBBB3156          CCG-PTX-S
+Routing Engine 0 REV 10   740-026942   P737A-003242      RE-DUO-C2600-16G-S
+Routing Engine 1 REV 10   740-026942   P737A-003854      RE-DUO-C2600-16G-S
+CB 0             REV 16   750-030625   BBAX6403          CB-PTX-S
+CB 1             REV 27   750-030625   ACPH7016          CB-PTX-S
+FPC 0            REV 22   750-036844   BBAV2057          FPC-PTX-P1-A
+  PIC 1          REV 22   750-031913   ACKF1042          P1-PTX-24-10GE-SFPP
+FPC 1            REV 19   750-049222   ACMS3451          FPC2-PTX-P1A
+  PIC 0          REV 22   750-031913   ACKD8630          P1-PTX-24-10GE-SFPP
+  PIC 1          REV 22   750-031913   ACKD8595          P1-PTX-24-10GE-SFPP
+FPC 2            REV 27   750-036844   ACLF5099          FPC-PTX-P1-A
+FPC 3            REV 17   750-049222   ACLR2540          FPC2-PTX-P1A
+  PIC 0          REV 22   750-031913   ACKD8684          P1-PTX-24-10GE-SFPP
+FPC 4            REV 25   750-036844   BBBF6204          FPC-PTX-P1-A
+  PIC 0          REV 21   750-031913   BBAX1114          P1-PTX-24-10GE-SFPP
+SIB 0            REV 08   750-049539   ACKV4347          PROTO-ASSEMBLY
+SIB 1            REV 08   750-049539   ACKV4324          PROTO-ASSEMBLY
+SIB 2            REV 08   750-049539   ACKE0495          PROTO-ASSEMBLY
+SIB 3            REV 14   750-049539   ACME0892          SIB2-I-PTX5K-S
+SIB 4            REV 08   750-049539   ACKV4351          PROTO-ASSEMBLY
+SIB 5            REV 08   750-049539   ACKV4328          PROTO-ASSEMBLY
+SIB 6            REV 08   750-049539   ACKV4344          PROTO-ASSEMBLY
+SIB 7            REV 08   750-049539   ACKV4341          PROTO-ASSEMBLY
+SIB 8            REV 14   750-049539   ACMD3958          SIB2-I-PTX5K-S
+Fan Tray 0       REV 11   760-032784   BBBA7452          FAN-PTX-V-S
+Fan Tray 1       REV 14   760-030642   BBBB4861          FAN-PTX-H-S
+Fan Tray 2       REV 14   760-030642   BBBB7395          FAN-PTX-H-S
+
+
+labroot@wolf-re0> show chassis hardware models                                                                                                                                                                     
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 05   710-017414   ABAA9618          CHAS-BP-MX480-S                                                                                                                                           
+FPM Board        REV 02   710-017254   ABBD2955          CRAFT-MX480-S                                                                                                                                             
+PEM 0            Rev 10   740-029970   QCS1251U0KF       PWR-MX480-2520-AC-S                                                                                                                                       
+PEM 1            Rev 10   740-029970   QCS1251U0K9       PWR-MX480-2520-AC-S                                                                                                                                       
+Routing Engine 0 REV 14   740-031116   9009135990        RE-S-1800X4-16G-S                                                                                                                                         
+Routing Engine 1 REV 08   740-031116   9009126258        RE-S-1800X4-16G-S                                                                                                                                         
+CB 0             REV 09   750-062572   CAJG9199          SCBE2-MX-S                                                                                                                                                
+CB 1             REV 12   750-062572   CAMA9822          SCBE2-MX-S                                                                                                                                                
+FPC 0            REV 38   750-028467   ABCR9023          MPC-3D-16XGE-SFPP                                                                                                                                         
+Fan Tray                                                 FFANTRAY-MX480-HC-S 
+
+labroot@tiger-re0> show chassis hardware models                                                                                                                                                                    
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 05   710-017414   ABAB0697          CHAS-BP-MX480-S                                                                                                                                           
+FPM Board        REV 02   710-017254   ABBC9053          CRAFT-MX480-S                                                                                                                                             
+PEM 0            Rev 06   740-029970   QCS1111U0J9       PWR-MX480-2520-AC-S                                                                                                                                       
+PEM 1            Rev 10   740-029970   QCS1251U0R9       PWR-MX480-2520-AC-S                                                                                                                                       
+Routing Engine 0 REV 04   740-051822   9016075531        RE-S-1800X4-32G-S                                                                                                                                         
+CB 0             REV 12   750-062572   CAMW4121          SCBE2-MX-S                                                                                                                                                
+CB 1             REV 01   750-055976   CACS1807          SCBE2-MX-S                                                                                                                                                
+FPC 2            REV 41   750-028467   CADZ8556          MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 3            REV 09   750-036284   ZL3590            MPCE-3D-16XGE-SFPP                                                                                                                                        
+FPC 5            REV 38   750-056519   CAFD3684          MPC7E-MRATE                                                                                                                                               
+Fan Tray                                                 FFANTRAY-MX480-HC-S    
+
+
+labroot@jtac-MX480-r014> show chassis hardware models                                                                                                                                                              
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         0x05     710-017414   TR0493            CHAS-BP-MX480-S                                                                                                                                           
+PEM 0            Rev 10   740-029970   QCS1407U0AX       PWR-MX480-2520-AC-S                                                                                                                                       
+PEM 1            Rev 10   740-029970   QCS1407U0PR       PWR-MX480-2520-AC-S                                                                                                                                       
+Routing Engine 0 REV 07   740-031116   9009112853        RE-S-1800X4-16G-S                                                                                                                                         
+CB 0             REV 34   750-031391   CACB9341          SCBE-MX-S                                                                                                                                                 
+CB 1             REV 16   750-031391   CAAW4224          SCBE-MX-S                                                                                                                                                 
+FPC 1            REV 44   750-028467   CAET5380          MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 4            REV 32   750-028467   ZV1734            MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 5            REV 16   750-062863   CALW9198          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+Fan Tray                                                 FFANTRAY-MX480-HC-S   
+
+labroot@victory-re0> show chassis hardware models                                                                                                                                                                  
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 05   710-017414   ABAA3993          CHAS-BP-MX480-S                                                                                                                                           
+FPM Board        REV 02   710-017254   XG0482            CRAFT-MX480-S                                                                                                                                             
+PEM 1            Rev 10   740-029970   QCS1407U0NK       PWR-MX480-2520-AC-S                                                                                                                                       
+PEM 2            Rev 10   740-029970   QCS1407U0F1       PWR-MX480-2520-AC-S                                                                                                                                       
+PEM 3            Rev 01   740-022697   QCS0843C056       PWR-MX480-1200-AC-S                                                                                                                                       
+Routing Engine 0 REV 09   740-031116   9009183722        RE-S-1800X4-16G-S                                                                                                                                         
+CB 0             REV 16   750-031391   CAAW4218          SCBE-MX-S                                                                                                                                                 
+FPC 0            REV 39   750-028467   CACR4524          MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 1            REV 30   750-031089   CABX5637          MX-MPC2-3D                                                                                                                                                
+  MIC 0          REV 30   750-028392   CADP0950          MIC-3D-20GE-SFP                                                                                                                                           
+  MIC 1          REV 27   750-028392   CACK6496          MIC-3D-20GE-SFP                                                                                                                                           
+Fan Tray                                                 FFANTRAY-MX480-HC-S  
+
+labroot@MX480-GW-1> show chassis hardware models                                                                                                                                                                   
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 05   710-017414   ACAB2930          CHAS-BP-MX480-S                                                                                                                                           
+FPM Board        REV 02   710-017254   ZN2412            CRAFT-MX480-S                                                                                                                                             
+PEM 0            Rev 07   740-029970   QCS1151U08J       PWR-MX480-2520-AC-S                                                                                                                                       
+PEM 1            Rev 07   740-029970   QCS1151U09T       PWR-MX480-2520-AC-S                                                                                                                                       
+Routing Engine 0 REV 15   750-054758   CAHX2111          RE-S-X6-64G-S                                                                                                                                             
+Routing Engine 1 REV 19   750-054758   CAJB9577          RE-S-X6-64G-S                                                                                                                                             
+CB 0             REV 29   750-070866   CAMF2319          SCBE3-MX-S                                                                                                                                                
+CB 1             REV 29   750-070866   CAMR5468          SCBE3-MX-S                                                                                                                                                
+FPC 0            REV 42   750-078633   CANP3210          MPC10E-10C-X                                                                                                                                              
+FPC 2            REV 77   750-045715   CAGE2240          MPC5EQ-40G10G                                                                                                                                             
+Fan Tray                                                 FFANTRAY-MX480-HC-S 
+
+
+labroot@shark-re0> show chassis hardware models                                                                                                                                                                    
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 05   710-017414   ABAA9901          CHAS-BP-MX480-S                                                                                                                                           
+FPM Board        REV 02   710-017254   ABBD2952          CRAFT-MX480-S                                                                                                                                             
+PEM 0            Rev 06   740-029970   QCS1049U066       PWR-MX480-2520-AC-S                                                                                                                                       
+PEM 1            Rev 06   740-029970   QCS1106U0UP       PWR-MX480-2520-AC-S                                                                                                                                       
+Routing Engine 0 REV 18   740-031116   9009072475        RE-S-1800X4-16G-S                                                                                                                                         
+Routing Engine 1 REV 05   740-031116   9009072765        RE-S-1800X4-16G-S                                                                                                                                         
+CB 0             REV 07   750-062572   CAGS6623          SCBE2-MX-S                                                                                                                                                
+CB 1             REV 12   750-062572   CAND4567          SCBE2-MX-S                                                                                                                                                
+FPC 0            REV 46   750-056519   CAMM0624          MPC7E-MRATE                                                                                                                                               
+FPC 1            REV 43   750-056519   CAJV6849          MPC7E-MRATE                                                                                                                                               
+FPC 2            REV 22   750-038491   CAFZ4697          MX-MPC2E-3D                                                                                                                                               
+  MIC 0          REV 31   750-028387   CAEZ8835          MIC-3D-4XGE-XFP                                                                                                                                           
+  MIC 1          REV 28   750-028387   CAAY9083          MIC-3D-4XGE-XFP                                                                                                                                           
+FPC 3            REV 25   750-031089   ABCN7991          MX-MPC2-3D                                                                                                                                                
+  MIC 0          REV 27   750-028392   ABCR1715          MIC-3D-20GE-SFP                                                                                                                                           
+  MIC 1          REV 26   750-028392   CAAF5218          MIC-3D-20GE-SFP                                                                                                                                           
+Fan Tray                                                 FFANTRAY-MX480-HC-S   
+
+
+labroot@raph-re1> show chassis hardware models                                                                                                                                                                     
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 05   710-017414   ABAB3697          CHAS-BP-MX480-S                                                                                                                                           
+FPM Board        REV 02   710-017254   ABBG7026          CRAFT-MX480-S                                                                                                                                             
+PEM 0            Rev 10   740-029970   QCS1404U11R       PWR-MX480-2520-AC-S                                                                                                                                       
+PEM 1            Rev 10   740-029970   QCS1404U19B       PWR-MX480-2520-AC-S                                                                                                                                       
+Routing Engine 1 REV 07   740-051822   9016296306        RE-S-1800X4-32G-S                                                                                                                                         
+CB 1             REV 34   750-031391   CABP5584          SCBE-MX-S                                                                                                                                                 
+FPC 4            REV 39   750-028467   CABM0990          MPC-3D-16XGE-SFPP                                                                                                                                         
+Fan Tray                                                 FFANTRAY-MX480-HC-S  
+
+labroot@cheetah-re0> show chassis hardware models                                                                                                                                                                  
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 05   710-017414   ABAB4116          CHAS-BP-MX480-S                                                                                                                                           
+FPM Board        REV 02   710-017254   ABBG5381          CRAFT-MX480-S                                                                                                                                             
+PEM 2            Rev 06   740-029970   QCS1049U0KD       PWR-MX480-2520-AC-S                                                                                                                                       
+PEM 3            Rev 07   740-029970   QCS1151U08S       PWR-MX480-2520-AC-S                                                                                                                                       
+Routing Engine 0 REV 15   750-054758   CAJG2901          RE-S-X6-64G-S                                                                                                                                             
+CB 0             REV 29   750-070866   CAMR5626          SCBE3-MX-S                                                                                                                                                
+FPC 2            REV 73   750-045715   CAFL6019          MPC5EQ-40G10G                                                                                                                                             
+Fan Tray                                                 FFANTRAY-MX480-HC-S   
+
+
+labroot@quincy-re0> show chassis hardware models                                                                                                                                                                   
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 03   710-013698   ABAB6625          CHAS-BP-MX960-S                                                                                                                                           
+Fan Extender     REV 02   710-018051   XY0913            ECM-MX960                                                                                                                                                 
+FPM Board        REV 03   710-014974   YH5966            CRAFT-MX960-S                                                                                                                                             
+PEM 0            Rev 11   740-027760   QCS1810N047       PWR-MX960-4100-AC-S                                                                                                                                       
+PEM 1            Rev 11   740-027760   QCS1803N0HU       PWR-MX960-4100-AC-S                                                                                                                                       
+Routing Engine 0 REV 02   740-051822   9013120613        RE-S-1800X4-32G-S                                                                                                                                         
+Routing Engine 1 REV 05   740-051822   9016255575        RE-S-1800X4-32G-S                                                                                                                                         
+CB 0             REV 12   750-062572   CAKM8931          SCBE2-MX-S                                                                                                                                                
+CB 1             REV 12   750-062572   CAKM8980          SCBE2-MX-S                                                                                                                                                
+FPC 0            REV 46   750-056519   CALX9382          MPC7E-MRATE                                                                                                                                               
+FPC 1            REV 46   750-056519   CAMG2404          MPC7E-MRATE                                                                                                                                               
+Fan Tray 0       REV 06   740-031521   ACAC1989          FFANTRAY-MX960-HC-S                                                                                                                                       
+Fan Tray 1       REV 08   740-031521   ACAC8674          FFANTRAY-MX960-HC-S    
+
+
+labroot@MXVC-r019-r026> how chassis hardware models                                                                                                                                                                
+member0:                                                                                                                                                                                                           
+--------------------------------------------------------------------------                                                                                                                                         
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 04   750-047849   ACRC4807          CHAS-BP3-MX960-S                                                                                                                                          
+FPM Board        REV 03   710-014974   CACM1353          CRAFT-MX960-S                                                                                                                                             
+PEM 1            Rev 01   740-063047   QCS2015N028       PWR-MX960-4100-AC-S                                                                                                                                       
+PEM 2            Rev 01   740-063047   QCS2147N010       PWR-MX960-4100-AC-S                                                                                                                                       
+Routing Engine 0 REV 15   750-054758   CAHY9442          RE-S-X6-64G-S                                                                                                                                             
+Routing Engine 1 REV 15   750-054758   CAJH0888          RE-S-X6-64G-S                                                                                                                                             
+CB 0             REV 02   750-055976   CADK6386          SCBE2-MX-S                                                                                                                                                
+CB 1             REV 09   750-062572   CAKW5326          SCBE2-MX-S                                                                                                                                                
+FPC 0            REV 67   750-045715   CAGR7116          MPC5EQ-40G10G                                                                                                                                             
+FPC 1            REV 50   750-046005   CAHC6176          MPC5EQ-100G10G                                                                                                                                            
+FPC 2            REV 08   750-062863   CAGP8528          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+FPC 3            REV 38   750-028467   ABCP7458          MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 4            REV 28   750-037355   CACZ6898          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+FPC 6            REV 40   750-056519   CAHB3086          MPC7E-MRATE                                                                                                                                               
+FPC 7            REV 11   750-054904   CAEN0675          MPC2E-3D-NG                                                                                                                                               
+  MIC 0          REV 22   750-028380   CAAZ8989          MIC-3D-2XGE-XFP                                                                                                                                           
+  MIC 1          REV 25   750-028380   CADJ9499          MIC-3D-2XGE-XFP                                                                                                                                           
+FPC 8            REV 22   750-037355   CABW1286          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+FPC 9            REV 28   750-037355   CACW1759          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+FPC 11           REV 61   750-045715   CAGA8972          MPC5EQ-40G10G                                                                                                                                             
+Fan Tray 0       REV 08   740-031521   ACDB1077          FFANTRAY-MX960-HC-S                                                                                                                                       
+Fan Tray 1       REV 08   740-031521   ACDB6747          FFANTRAY-MX960-HC-S                                                                                                                                       
+                                                                                                                                                                                                                   
+member1:                                                                                                                                                                                                           
+--------------------------------------------------------------------------                                                                                                                                         
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 04   750-047849   ACAX2231          CHAS-BP3-MX960-S                                                                                                                                          
+FPM Board        REV 03   710-014974   CAAT1963          CRAFT-MX960-S                                                                                                                                             
+PEM 2            Rev 11   740-027760   QCS1745N11M       PWR-MX960-4100-AC-S                                                                                                                                       
+PEM 3            Rev 09   740-027760   QCS1649N0BU       PWR-MX960-4100-AC-S                                                                                                                                       
+Routing Engine 0 REV 19   750-054758   CANK6877          RE-S-X6-64G-S                                                                                                                                             
+Routing Engine 1 REV 16   750-054758   CAJS4338          RE-S-X6-64G-S                                                                                                                                             
+CB 0             REV 02   750-055976   CAEB8177          SCBE2-MX-S                                                                                                                                                
+CB 1             REV 01   750-055976   CACS7518          SCBE2-MX-S                                                                                                                                                
+FPC 0            REV 73   750-045715   CAFN9973          MPC5EQ-40G10G                                                                                                                                             
+FPC 1            REV 22   750-054564   CADZ1034          MPC5E-100G10G                                                                                                                                             
+FPC 2            REV 11   750-062863   CAJJ2332          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+FPC 3            REV 26   750-028467   ABBF8987          MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 4            REV 09   750-062863   CAHC6394          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+FPC 6            REV 40   750-056519   CAGE9957          MPC7E-MRATE                                                                                                                                               
+FPC 7            REV 08   750-063184   CAJF4393          MPC2E-3D-NG                                                                                                                                               
+  MIC 0          REV 21   750-028380   CAAL2954          MIC-3D-2XGE-XFP                                                                                                                                           
+  MIC 1          REV 21   750-028380   CAAK3292          MIC-3D-2XGE-XFP                                                                                                                                           
+FPC 8            REV 18   750-037355   CABH9065          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+FPC 9            REV 22   750-037355   CABM5676          MPC4E-3D-2CGE-8XGE
+FPC 11           REV 42   750-046005   CADM2709          MPC5EQ-100G10G                                                                                                                                            
+Fan Tray 0       REV 08   740-031521   ACDA9365          FFANTRAY-MX960-HC-S                                                                                                                                       
+Fan Tray 1       REV 08   740-031521   ACAF3361          FFANTRAY-MX960-HC-S 
+
+labroot@re0-pr04.del01> show chassis hardware models                                                                                                                                                               
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 03   710-013698   TS4929            CHAS-BP-MX960-S                                                                                                                                           
+Fan Extender     REV 02   710-018051   WY7393            ECM-MX960                                                                                                                                                 
+FPM Board        REV 03   710-014974   WZ4878            CRAFT-MX960-S                                                                                                                                             
+PEM 1            Rev 10   740-027760   QCS1710N033       PWR-MX960-4100-AC-S                                                                                                                                       
+PEM 2            Rev 11   740-027760   QCS1810N0KB       PWR-MX960-4100-AC-S                                                                                                                                       
+Routing Engine 0 REV 07   740-031116   9009109194        RE-S-1800X4-16G-S                                                                                                                                         
+Routing Engine 1 REV 17   740-031116   9009112811        RE-S-1800X4-16G-S                                                                                                                                         
+CB 0             REV 15   750-031391   CAAS5838          SCBE-MX-S                                                                                                                                                 
+CB 1             REV 19   750-031391   CACC1363          SCBE-MX-S                                                                                                                                                 
+CB 2             REV 20   750-031391   CACL7201          SCBE-MX-S                                                                                                                                                 
+FPC 1            REV 33   750-028467   CAAA6039          MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 2            REV 26   750-028467   YZ9651            MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 3            REV 47   750-028467   CABG1958          MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 4            REV 16   750-062863   CALW9411          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+FPC 5            REV 22   750-037355   CABW9976          MPC4E-3D-2CGE-8XGE                                                                                                                                        
+Fan Tray 0       REV 08   740-031521   ACDA9832          FFANTRAY-MX960-HC-S                                                                                                                                       
+Fan Tray 1       REV 08   740-031521   ACDA9842          FFANTRAY-MX960-HC-S                                                                                                                                       
+                                                                                 
+																				 
+labroot@grapevine-re0> show chassis hardware models                                                                                                                                                                
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 03   710-013698   ABAB2691          CHAS-BP-MX960-S                                                                                                                                           
+FPM Board        REV 03   710-014974   ABBD5738          CRAFT-MX960-S                                                                                                                                             
+PEM 0            Rev 11   740-027760   QCS1745N1DR       PWR-MX960-4100-AC-S                                                                                                                                       
+PEM 1            Rev 01   740-063047   QCS2147N081       PWR-MX960-4100-AC-S                                                                                                                                       
+Routing Engine 0 REV 10   740-031116   9009233633        RE-S-1800X4-16G-S                                                                                                                                         
+CB 0             REV 34   750-031391   ABCF0537          SCBE-MX-S                                                                                                                                                 
+FPC 9            REV 33   750-028467   CAAF8150          MPC-3D-16XGE-SFPP                                                                                                                                         
+Fan Tray 0       REV 07   740-031521   ACAC3756          FFANTRAY-MX960-HC-S                                                                                                                                       
+Fan Tray 1       REV 06   740-031521   ACAC1670          FFANTRAY-MX960-HC-S     
+
+
+
+labroot@tully-re0> show chassis hardware models                                                                                                                                                                    
+Hardware inventory:                                                                                                                                                                                                
+Item             Version  Part number  Serial number     FRU model number                                                                                                                                          
+Midplane         REV 03   710-013698   ABAB4347          CHAS-BP-MX960-S                                                                                                                                           
+Fan Extender     REV 02   710-018051   YJ4263            ECM-MX960                                                                                                                                                 
+FPM Board        REV 03   710-014974   ABBK3308          CRAFT-MX960-S                                                                                                                                             
+PEM 2            Rev 11   740-027760   QCS1745N15S       PWR-MX960-4100-AC-S                                                                                                                                       
+PEM 3            Rev 01   740-063047   QCS2147N045       PWR-MX960-4100-AC-S                                                                                                                                       
+Routing Engine 0 REV 03   740-051822   9016027965        RE-S-1800X4-32G-S                                                                                                                                         
+CB 0             REV 02   750-055976   CACS9519          SCBE2-MX-S                                                                                                                                                
+FPC 2            REV 47   750-028467   CABX8705          MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 4            REV 11   750-036284   ZN2810            MPCE-3D-16XGE-SFPP                                                                                                                                        
+FPC 8            REV 54   750-062581   CAPC1596          MPC-3D-16XGE-SFPP                                                                                                                                         
+FPC 9            REV 26   750-036284   CAAR2573          MPCE-3D-16XGE-SFPP                                                                                                                                        
+FPC 10           REV 47   750-028467   CACX5083          MPC-3D-16XGE-SFPP                                                                                                                                         
+Fan Tray 0       REV 08   740-031521   ACAC8803          FFANTRAY-MX960-HC-S                                                                                                                                       
+Fan Tray 1       REV 08   740-031521   ACAC4702          FFANTRAY-MX960-HC-S                                                                                                                                       
+                                                                                                                                                                                                                 
